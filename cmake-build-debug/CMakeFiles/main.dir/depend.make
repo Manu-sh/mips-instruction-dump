@@ -3,5 +3,6 @@
 
 CMakeFiles/main.dir/main.c.o: ../include/mips/mips.h
 CMakeFiles/main.dir/main.c.o: ../include/mips/mipsd.h
+CMakeFiles/main.dir/main.c.o: ../include/mips/registers/helper.h
 CMakeFiles/main.dir/main.c.o: ../main.c
 

@@ -4,4 +4,5 @@
 CMakeFiles/main.dir/main.c.o
  ../include/mips/mips.h
  ../include/mips/mipsd.h
+ ../include/mips/registers/helper.h
  /home/user/mips-instruction-dump/main.c

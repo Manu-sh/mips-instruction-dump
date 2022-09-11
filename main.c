@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <mips/mipsd.h>
 
+#include <mips/registers/helper.h>
+
 // mips decode
 int main(void) {
 
@@ -28,6 +30,10 @@ int main(void) {
 	};
 
 	mips_dump(i, DUMPOPT_B16|DUMPOPT_B10);
+
+	//for (int i = 0; i < 32; ++i)
+	    //printf("%s ", get_reg_name(i));
+
 	return 0;
 }
 

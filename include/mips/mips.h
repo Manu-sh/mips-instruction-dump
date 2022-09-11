@@ -24,6 +24,11 @@ typedef union {
                 uint32_t   codop:6;
             } fmt_imm;
 
+            struct {
+                uint32_t    addr:26;
+                uint32_t   codop:6;
+            } fmt_jmp;
+
     #elif defined __BIG_ENDIAN_BITFIELD
 
             struct {
@@ -41,6 +46,11 @@ typedef union {
                 uint32_t      rt:5;
                 uint32_t   addr:16; // address or constant
             } fmt_imm;
+
+            struct {
+                uint32_t   codop:6;
+                uint32_t    addr:26;
+            } fmt_jmp;
 
     #else
         #error "unknow host endianess"
