@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/mips.h
+stdint.h
+-
+asm/byteorder.h
+-
+
+/home/user/mips-instruction-dump/main.c
+stdio.h
+-
+mips.h
+-
+
