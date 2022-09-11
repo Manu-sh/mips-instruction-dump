@@ -27,9 +27,6 @@ static inline void mips_dump(mips_t i, dump_option_t opt) {
     if (opt & DUMPOPT_B10)
         printf("%.4u ", i.word);
 
-    if (opt & DUMPOPT_HUMAN) {
-
-    }
 
     puts("");
 }

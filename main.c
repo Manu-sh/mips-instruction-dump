@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <mips/mipsd.h>
 
-#include <mips/registers/helper.h>
+#include <mips/register/helper.h>
 
 // mips decode
 int main(void) {

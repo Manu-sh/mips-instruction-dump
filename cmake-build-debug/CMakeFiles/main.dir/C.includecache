@@ -16,7 +16,7 @@ asm/byteorder.h
 mips/mips.h
 -
 
-../include/mips/registers/helper.h
+../include/mips/register/helper.h
 stdint.h
 -
 
@@ -25,6 +25,6 @@ stdio.h
 -
 mips/mipsd.h
 -
-mips/registers/helper.h
+mips/register/helper.h
 -
 
