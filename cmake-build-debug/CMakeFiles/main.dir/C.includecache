@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-../include/mips.h
+../include/mips/mips.h
 stdint.h
 -
 asm/byteorder.h
 -
 
+../include/mips/mipsd.h
+mips/mips.h
+-
+
 /home/user/mips-instruction-dump/main.c
 stdio.h
 -
-mips.h
+mips/mipsd.h
 -
 

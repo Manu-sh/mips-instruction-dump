@@ -1,14 +1,14 @@
 #include <stdio.h>
-#include <mips.h>
+#include <mips/mipsd.h>
 
 // mips decode
 int main(void) {
 
 
 
-	//mips_t i = {.v = 0x3c03800b };
-	//mips_t i = {.v = 0x3c048001 };
-	//mips_t i = {.v = 0x24841670 };
+	//mips_t i = {.word = 0x3c03800b };
+	//mips_t i = {.word = 0x3c048001 };
+	//mips_t i = {.word = 0x24841670 };
 	/*
 	   printf("opcode=%d %d %d %d\n",
 	   i.fmt_imm.codop,
@@ -27,7 +27,7 @@ int main(void) {
 		.fmt_reg.funz    = 34,
 	};
 
-	printf("%#.8X\n", i.v);
+	mips_dump(i, DUMPOPT_B16|DUMPOPT_B10);
 	return 0;
 }
 
