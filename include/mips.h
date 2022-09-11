@@ -6,8 +6,9 @@
 // 1006862347 => 3c03800b => LUI, 2, 5, 0
 typedef union {
 
-#if defined(__LITTLE_ENDIAN_BITFIELD)
-    struct {
+#ifdef __LITTLE_ENDIAN_BITFIELD
+
+        struct {
 			uint32_t    funz:6;
 			uint32_t   shamt:5;
 			uint32_t      rd:5;
@@ -23,9 +24,9 @@ typedef union {
 			uint32_t   codop:6;
 		} fmt_imm;
 
-#elif defined(__BIG_ENDIAN_BITFIELD)
+#elif defined __BIG_ENDIAN_BITFIELD
 
-    struct {
+        struct {
 			uint32_t   codop:6; // opcode
 			uint32_t      rs:5; // a1
 			uint32_t      rt:5; // a2

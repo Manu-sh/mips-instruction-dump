@@ -1,5 +1,4 @@
-#include  <stdio.h>
-
+#include <stdio.h>
 #include <mips.h>
 
 // mips decode
