@@ -43,7 +43,28 @@ int main(void) {
     printf("%s\n", get_instruction_type_str( (mips_t){.word = 0x3c03800b}) );
     printf("%s\n", get_instruction_type_str( (mips_t){.word = 0x3c048001}) );
     printf("%s\n", get_instruction_type_str( (mips_t){.word = 0x24841670}) );
-    printf("%s\n", get_instruction_type_str( (mips_t){.word = 00e01021}) );
+    printf("%s\n", get_instruction_type_str( (mips_t){.word = 0x00e01021 }) );
+
+
+
+
+
+
+
+
+
+
+
+    printf("%s\n", get_instruction_type_str( (mips_t){.word = 0x44090800 }) );
+    printf("%s\n", get_instruction_type_str( (mips_t){.word = 0x46800820 }) );
+    printf("%s\n", get_instruction_type_str( (mips_t){.word = 0x46000824 }) );
+    printf("%s\n", get_instruction_type_str( (mips_t){.word = 0x46030803 }) );
+    printf("%s\n", get_instruction_type_str( (mips_t){.word = 0x44090800 }) );
+    printf("%s\n", get_instruction_type_str( (mips_t){.word = 0x46000806 }) );
+    printf("%s\n", get_instruction_type_str( (mips_t){.word = 0x44890800 }) );
+
+    printf("%s\n", get_instruction_type_str( (mips_t){.word = 0x46030802 }) );
+    printf("%s\n", get_instruction_type_str( (mips_t){.word = 0x46030801 }) );
 
 	//for (int i = 0; i < 32; ++i)
 	    //printf("%s ", get_reg_name(i));
