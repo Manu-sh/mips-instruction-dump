@@ -30,3 +30,4 @@ static inline void mips_dump(mips_t i, dump_option_t opt) {
 
     puts("");
 }
+

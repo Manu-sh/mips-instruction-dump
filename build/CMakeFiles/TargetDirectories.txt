@@ -1,0 +1,3 @@
+/home/user/mips-instruction-dump/build/CMakeFiles/main.dir
+/home/user/mips-instruction-dump/build/CMakeFiles/edit_cache.dir
+/home/user/mips-instruction-dump/build/CMakeFiles/rebuild_cache.dir

@@ -2,6 +2,7 @@
 #include <mips/mipsd.h>
 
 #include <mips/register/helper.h>
+#include <mips/instruction/helper.h>
 
 // mips decode
 int main(void) {
@@ -30,6 +31,13 @@ int main(void) {
 	};
 
 	mips_dump(i, DUMPOPT_B16|DUMPOPT_B10);
+
+    //mips_dump((mips_t){.word = 0x44090800}, DUMPOPT_B16|DUMPOPT_B10);
+
+    //printf("%#08x\n", (mips_t){.word = 0x44090800}.fmt_reg.codop);
+    //printf("%#08x\n", (mips_t){.word = 0x44090800}.word >> (3*8+2));
+
+    printf("%s\n", get_instruction_type_str( (mips_t){.word = 0x46030801}) );
 
 	//for (int i = 0; i < 32; ++i)
 	    //printf("%s ", get_reg_name(i));

@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../include/mips/instruction/helper.h
+stdint.h
+-
+
 ../include/mips/mips.h
 stdint.h
 -
@@ -26,5 +30,7 @@ stdio.h
 mips/mipsd.h
 -
 mips/register/helper.h
+-
+mips/instruction/helper.h
 -
 
