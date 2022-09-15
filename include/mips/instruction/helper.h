@@ -44,10 +44,10 @@ static inline mips_instruction_type_t get_instruction_type(uint8_t opcode) {
 static inline const char * get_instruction_type_str(mips_t i) {
 
     static const char *name[ISA_TYPE_LENGTH] = {
-      [ISA_ERROR] = "invalid opcode",
-      [ISA_TYPE_R] = "register",
-      [ISA_TYPE_I] = "immediate",
-      [ISA_TYPE_J] = "jump",
+      [ISA_ERROR]       = "invalid opcode",
+      [ISA_TYPE_R]      = "register",
+      [ISA_TYPE_I]      = "immediate",
+      [ISA_TYPE_J]      = "jump",
       [ISA_TYPE_COPROC] = "coprocessor",
     };
 
