@@ -13,3 +13,5 @@ typedef enum {
 
 mips_instruction_type_t get_isa_type(uint8_t opcode);
 const char * get_isa_type_str(mips_t i);
+
+// TODO: get_isa_from_opcode_r()
