@@ -1,52 +1,50 @@
 #pragma once
 #include <stdint.h>
 
-static inline const char * get_reg_name(uint8_t reg_number) {
 
-    static const char * const register_name[32] = {
-            "$zero",
-            "$at",
+enum {
+    REG_ZERO,
+    REG_AT,
 
-            "$v0",
-            "$v1",
+    REG_V0,
+    REG_V1,
 
-            "$a0",
-            "$a1",
-            "$a2",
-            "$a3",
+    REG_A0,
+    REG_A1,
+    REG_A2,
+    REG_A3,
 
-            "$t0",
-            "$t1",
-            "$t2",
-            "$t3",
-            "$t4",
-            "$t5",
-            "$t6",
-            "$t7",
+    REG_T0,
+    REG_T1,
+    REG_T2,
+    REG_T3,
+    REG_T4,
+    REG_T5,
+    REG_T6,
+    REG_T7,
 
-            "$s0",
-            "$s1",
-            "$s2",
-            "$s3",
-            "$s4",
-            "$s5",
-            "$s6",
-            "$s7",
+    REG_S0,
+    REG_S1,
+    REG_S2,
+    REG_S3,
+    REG_S4,
+    REG_S5,
+    REG_S6,
+    REG_S7,
 
-            "$t8",
-            "$t9",
+    REG_T8,
+    REG_T9,
 
-            "$k0",
-            "$k1",
+    REG_K0,
+    REG_K1,
 
-            "$gp",
-            "$sp",
-            "$fp",
-            "$ra",
-    };
+    REG_GP,
+    REG_SP,
+    REG_FP,
+    REG_RA,
 
-    if (reg_number > 31)
-        return "invalid register number (valids are 0-31)";
+    REG_INVALID,
+    REG_LENGTH
+};
 
-    return register_name[reg_number];
-}
+const char * get_reg_name(uint8_t reg_number);

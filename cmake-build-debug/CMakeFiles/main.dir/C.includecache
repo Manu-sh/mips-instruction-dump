@@ -19,6 +19,8 @@ asm/byteorder.h
 ../include/mips/mipsd.h
 mips/mips.h
 -
+mips/instruction/helper.h
+-
 
 ../include/mips/register/helper.h
 stdint.h
