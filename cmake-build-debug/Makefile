@@ -170,6 +170,60 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.s
 .PHONY : main.c.s
 
+src/mips/instruction/helper.o: src/mips/instruction/helper.c.o
+
+.PHONY : src/mips/instruction/helper.o
+
+# target to build an object file
+src/mips/instruction/helper.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/mips/instruction/helper.c.o
+.PHONY : src/mips/instruction/helper.c.o
+
+src/mips/instruction/helper.i: src/mips/instruction/helper.c.i
+
+.PHONY : src/mips/instruction/helper.i
+
+# target to preprocess a source file
+src/mips/instruction/helper.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/mips/instruction/helper.c.i
+.PHONY : src/mips/instruction/helper.c.i
+
+src/mips/instruction/helper.s: src/mips/instruction/helper.c.s
+
+.PHONY : src/mips/instruction/helper.s
+
+# target to generate assembly for a file
+src/mips/instruction/helper.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/mips/instruction/helper.c.s
+.PHONY : src/mips/instruction/helper.c.s
+
+src/mips/register/helper.o: src/mips/register/helper.c.o
+
+.PHONY : src/mips/register/helper.o
+
+# target to build an object file
+src/mips/register/helper.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/mips/register/helper.c.o
+.PHONY : src/mips/register/helper.c.o
+
+src/mips/register/helper.i: src/mips/register/helper.c.i
+
+.PHONY : src/mips/register/helper.i
+
+# target to preprocess a source file
+src/mips/register/helper.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/mips/register/helper.c.i
+.PHONY : src/mips/register/helper.c.i
+
+src/mips/register/helper.s: src/mips/register/helper.c.s
+
+.PHONY : src/mips/register/helper.s
+
+# target to generate assembly for a file
+src/mips/register/helper.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/mips/register/helper.c.s
+.PHONY : src/mips/register/helper.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -182,6 +236,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/mips/instruction/helper.o"
+	@echo "... src/mips/instruction/helper.i"
+	@echo "... src/mips/instruction/helper.s"
+	@echo "... src/mips/register/helper.o"
+	@echo "... src/mips/register/helper.i"
+	@echo "... src/mips/register/helper.s"
 .PHONY : help
 
 

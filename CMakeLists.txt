@@ -5,7 +5,11 @@ set(CMAKE_C_STANDARD 11)
 set(INC_PATH  ${PROJECT_SOURCE_DIR}/include)
 set(SRC_PATH  ${PROJECT_SOURCE_DIR}/src)
 
-add_executable(${PROJECT_NAME} main.c)
+add_executable(${PROJECT_NAME}
+        main.c
+        ${SRC_PATH}/mips/instruction/helper.c
+        ${SRC_PATH}/mips/register/helper.c
+)
 
 target_include_directories(${PROJECT_NAME} PUBLIC ${INC_PATH})
 target_compile_options(${PROJECT_NAME}

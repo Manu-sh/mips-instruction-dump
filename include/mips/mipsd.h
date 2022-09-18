@@ -1,8 +1,15 @@
 #pragma once
 
 #include <mips/mips.h>
-
 #include <mips/instruction/helper.h>
+
+typedef struct {
+    mips_t data;
+
+    const char *name;
+    mips_instruction_type_t type;
+    uint8_t operands;
+} mips_big_t;
 
 typedef enum {
     DUMPOPT_B16   = 1,

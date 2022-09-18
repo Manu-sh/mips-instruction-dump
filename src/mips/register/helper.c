@@ -1,4 +1,5 @@
 #include <mips/register/helper.h>
+#include <mips/mips.h>
 
 const char * get_reg_name(uint8_t reg_number) {
 

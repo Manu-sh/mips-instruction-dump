@@ -7,3 +7,11 @@ CMakeFiles/main.dir/main.c.o: ../include/mips/mipsd.h
 CMakeFiles/main.dir/main.c.o: ../include/mips/register/helper.h
 CMakeFiles/main.dir/main.c.o: ../main.c
 
+CMakeFiles/main.dir/src/mips/instruction/helper.c.o: ../include/mips/instruction/helper.h
+CMakeFiles/main.dir/src/mips/instruction/helper.c.o: ../include/mips/mips.h
+CMakeFiles/main.dir/src/mips/instruction/helper.c.o: ../src/mips/instruction/helper.c
+
+CMakeFiles/main.dir/src/mips/register/helper.c.o: ../include/mips/mips.h
+CMakeFiles/main.dir/src/mips/register/helper.c.o: ../include/mips/register/helper.h
+CMakeFiles/main.dir/src/mips/register/helper.c.o: ../src/mips/register/helper.c
+

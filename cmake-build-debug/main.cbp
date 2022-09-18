@@ -81,6 +81,12 @@
 		<Unit filename="/home/user/mips-instruction-dump/main.c">
 			<Option target="main"/>
 		</Unit>
+		<Unit filename="/home/user/mips-instruction-dump/src/mips/instruction/helper.c">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/user/mips-instruction-dump/src/mips/register/helper.c">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="/home/user/mips-instruction-dump/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -9,6 +9,8 @@
 ../include/mips/instruction/helper.h
 stdint.h
 -
+mips/mips.h
+-
 
 ../include/mips/mips.h
 stdint.h

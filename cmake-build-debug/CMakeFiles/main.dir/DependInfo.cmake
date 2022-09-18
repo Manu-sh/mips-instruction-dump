@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/user/mips-instruction-dump/main.c" "/home/user/mips-instruction-dump/cmake-build-debug/CMakeFiles/main.dir/main.c.o"
+  "/home/user/mips-instruction-dump/src/mips/instruction/helper.c" "/home/user/mips-instruction-dump/cmake-build-debug/CMakeFiles/main.dir/src/mips/instruction/helper.c.o"
+  "/home/user/mips-instruction-dump/src/mips/register/helper.c" "/home/user/mips-instruction-dump/cmake-build-debug/CMakeFiles/main.dir/src/mips/register/helper.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

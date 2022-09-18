@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/main.c.o"
+  "CMakeFiles/main.dir/src/mips/instruction/helper.c.o"
+  "CMakeFiles/main.dir/src/mips/register/helper.c.o"
   "main"
   "main.pdb"
 )
