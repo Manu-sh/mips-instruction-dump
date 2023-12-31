@@ -17,5 +17,5 @@ target_compile_options(${PROJECT_NAME}
             -Wall -Wextra
             -Wno-unused-function -pipe -pedantic
             -fstack-protector-all -fstack-protector-strong
-            -O3 -ffast-math -funroll-loops -march=native
+            -O3 -ffast-math -funroll-loops -march=native -mtune=native
 )
